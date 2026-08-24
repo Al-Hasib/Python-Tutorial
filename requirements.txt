@@ -1,0 +1,11 @@
+# Optional dependencies — only used by files in 11-data-and-web/.
+# Every file in this repo runs and teaches its concept without these installed;
+# they just enable the richer, real-library demos instead of the stdlib-only fallback.
+#
+# Install with:
+#   pip install -r requirements.txt
+
+requests>=2.31
+flask>=3.0
+numpy>=1.26
+pandas>=2.2
