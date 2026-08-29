@@ -122,10 +122,10 @@ class TestCalculator(unittest.TestCase):
 # 4. Running tests programmatically inside this script
 # ---------------------------------------------------------------------------
 # Normally you would run tests from the command line:
-#     $ python -m unittest 49_unit_testing.py
+#     $ python -m unittest 52_unit_testing.py
 #     $ python -m unittest discover
 # But this file needs to be self-contained and runnable directly with
-# `python 49_unit_testing.py`, so we run the tests programmatically instead,
+# `python 52_unit_testing.py`, so we run the tests programmatically instead,
 # using two different techniques below.
 
 def run_with_unittest_main():

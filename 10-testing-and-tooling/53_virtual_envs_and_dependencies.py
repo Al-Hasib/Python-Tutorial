@@ -152,7 +152,7 @@ import os
 # - Poetry combines dependency management with packaging metadata (project
 #   name, version, authors) in one pyproject.toml file, whereas the
 #   venv/pip workflow typically spreads this across requirements.txt and
-#   a separate setup.py/pyproject.toml (see file 52 for packaging details).
+#   a separate setup.py/pyproject.toml (see file 55 for packaging details).
 # - venv + pip ships with Python and needs no extra install; Poetry must be
 #   installed separately (e.g. via pipx) before you can use it.
 

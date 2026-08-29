@@ -156,7 +156,7 @@ print("  __annotations__ of double:", double.__annotations__)
 #
 # You would install it with:   pip install mypy
 # And run it from the terminal (not from inside this script):
-#   mypy 42_type_hints.py
+#   mypy 45_type_hints.py
 #
 # mypy would flag double("ab") above with something like:
 #   error: Argument 1 to "double" has incompatible type "str"; expected "int"
@@ -164,7 +164,7 @@ print("  __annotations__ of double:", double.__annotations__)
 # This script intentionally does NOT invoke mypy -- it is a separate tool you
 # run as part of your development workflow, e.g. in CI or before committing.
 
-print("\n(mypy would be run from the command line: `mypy 42_type_hints.py`)")
+print("\n(mypy would be run from the command line: `mypy 45_type_hints.py`)")
 
 # ---------------------------------------------------------------------------
 # 7. dataclasses: a practical typed-class example
