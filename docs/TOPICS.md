@@ -1,6 +1,8 @@
 # Python Learning Path — Topic List (Scratch to Advanced)
 
-A sequential curriculum. Each numbered item will become its own doc.
+A sequential curriculum. Each numbered item has its own `.py` file (plus a matching `.ipynb`
+notebook) in the corresponding phase folder — see the top-level [README](../README.md) for the
+full file listing.
 
 ## Phase 1: Fundamentals
 1. Introduction to Python & Setup (installing Python, running scripts, REPL, IDEs)
@@ -14,75 +16,79 @@ A sequential curriculum. Each numbered item will become its own doc.
 7. Conditional Statements (`if`, `elif`, `else`, ternary expressions)
 8. Loops (`for`, `while`, `range`, `break`, `continue`, `else` on loops)
 9. Nested Loops & Loop Patterns
+10. Structural Pattern Matching (`match`/`case`, sequence/mapping/class patterns, guards)
 
 ## Phase 3: Data Structures
-10. Lists (creation, indexing, slicing, methods, list comprehensions)
-11. Tuples (immutability, packing/unpacking, use cases)
-12. Dictionaries (creation, methods, iteration, dict comprehensions)
-13. Sets (operations, use cases)
-14. Choosing the Right Data Structure
+11. Lists (creation, indexing, slicing, methods, list comprehensions)
+12. Tuples (immutability, packing/unpacking, use cases)
+13. Dictionaries (creation, methods, iteration, dict comprehensions)
+14. Sets (operations, use cases)
+15. Choosing the Right Data Structure
 
 ## Phase 4: Functions
-15. Functions Basics (`def`, parameters, return values, docstrings)
-16. Function Arguments (default, keyword, `*args`, `**kwargs`)
-17. Scope & Namespaces (local, global, `nonlocal`)
-18. Lambda Functions
-19. Recursion
-20. Higher-Order Functions (`map`, `filter`, `reduce`, functions as first-class objects)
+16. Functions Basics (`def`, parameters, return values, docstrings)
+17. Function Arguments (default, keyword, `*args`, `**kwargs`)
+18. Scope & Namespaces (local, global, `nonlocal`)
+19. Lambda Functions
+20. Recursion
+21. Higher-Order Functions (`map`, `filter`, `reduce`, functions as first-class objects)
 
 ## Phase 5: Working with Modules & Files
-21. Modules & Packages (`import`, creating your own modules, `__name__ == "__main__"`)
-22. Python Standard Library Tour (`os`, `sys`, `math`, `random`, `datetime`, etc.)
-23. File Handling (reading/writing files, context managers, `with`)
-24. Working with CSV/JSON
+22. Modules & Packages (`import`, creating your own modules, `__name__ == "__main__"`)
+23. Python Standard Library Tour (`os`, `sys`, `math`, `random`, `datetime`, etc.)
+24. File Handling (reading/writing files, context managers, `with`)
+25. Working with CSV/JSON
+26. Command-Line Arguments (`argparse`: positional/optional args, types, flags, choices)
 
 ## Phase 6: Error Handling
-25. Exceptions & Error Handling (`try`, `except`, `finally`, `else`)
-26. Raising Custom Exceptions
-27. Debugging Techniques & Logging
+27. Exceptions & Error Handling (`try`, `except`, `finally`, `else`)
+28. Raising Custom Exceptions
+29. Debugging Techniques & Logging
 
 ## Phase 7: Object-Oriented Programming
-28. Classes & Objects (attributes, methods, `self`, `__init__`)
-29. Inheritance & Polymorphism
-30. Encapsulation & Access Modifiers (`_protected`, `__private`)
-31. Magic/Dunder Methods (`__str__`, `__repr__`, `__eq__`, `__len__`, etc.)
-32. Class Methods, Static Methods & Properties
-33. Abstract Classes & Interfaces (`abc` module)
-34. Composition vs Inheritance
+30. Classes & Objects (attributes, methods, `self`, `__init__`)
+31. Enums (`enum.Enum`/`IntEnum`/`auto()` — named constants done right)
+32. Inheritance & Polymorphism
+33. Encapsulation & Access Modifiers (`_protected`, `__private`)
+34. Magic/Dunder Methods (`__str__`, `__repr__`, `__eq__`, `__len__`, etc.)
+35. Class Methods, Static Methods & Properties
+36. Abstract Classes & Interfaces (`abc` module)
+37. Composition vs Inheritance
 
 ## Phase 8: Intermediate Concepts
-35. Iterators & Generators (`yield`, generator expressions)
-36. Decorators
-37. Context Managers (`with`, writing your own via `__enter__`/`__exit__`)
-38. Comprehensions Deep Dive (list/dict/set/generator comprehensions)
-39. Working with Dates & Times
-40. Regular Expressions (`re` module)
+38. Iterators & Generators (`yield`, generator expressions)
+39. Decorators
+40. Context Managers (`with`, writing your own via `__enter__`/`__exit__`)
+41. Comprehensions Deep Dive (list/dict/set/generator comprehensions)
+42. Working with Dates & Times
+43. Regular Expressions (`re` module)
 
 ## Phase 9: Advanced Python
-41. Advanced OOP (metaclasses, `__slots__`, multiple inheritance & MRO)
-42. Type Hints & Static Typing (`typing` module, `mypy`)
-43. Functional Programming Patterns (`functools`, `itertools`)
-44. Concurrency: Threading
-45. Concurrency: Multiprocessing
-46. Asynchronous Programming (`async`/`await`, `asyncio`)
-47. Memory Management & Garbage Collection
-48. Performance Optimization & Profiling
+44. Advanced OOP (metaclasses, `__slots__`, multiple inheritance & MRO)
+45. Type Hints & Static Typing (`typing` module, `mypy`)
+46. Functional Programming Patterns (`functools`, `itertools`)
+47. Concurrency: Threading
+48. Concurrency: Multiprocessing
+49. Asynchronous Programming (`async`/`await`, `asyncio`)
+50. Memory Management & Garbage Collection
+51. Performance Optimization & Profiling
 
 ## Phase 10: Testing, Tooling & Best Practices
-49. Unit Testing (`unittest`, `pytest`)
-50. Virtual Environments & Dependency Management (`venv`, `pip`, `requirements.txt`, Poetry)
-51. Code Style & Linting (PEP 8, `black`, `flake8`, `ruff`)
-52. Packaging & Distributing Python Projects
+52. Unit Testing (`unittest`, `pytest`)
+53. Virtual Environments & Dependency Management (`venv`, `pip`, `requirements.txt`, Poetry)
+54. Code Style & Linting (PEP 8, `black`, `flake8`, `ruff`)
+55. Packaging & Distributing Python Projects
 
 ## Phase 11: Working with Data & Web
-53. Working with APIs (`requests`, REST basics)
-54. Databases in Python (`sqlite3`, ORMs like SQLAlchemy)
-55. Introduction to Web Development (Flask/FastAPI basics)
-56. Data Handling Basics (`pandas`, `numpy` overview)
+56. Working with APIs (`requests`, REST basics)
+57. Databases in Python (`sqlite3`, ORMs like SQLAlchemy)
+58. Introduction to Web Development (Flask/FastAPI basics)
+59. Data Handling Basics (`pandas`, `numpy` overview)
 
 ## Phase 12: Capstone
-57. Building a Real Project (putting it all together)
-58. Next Steps (choosing a specialization: web, data, automation, ML)
+60. Building a Real Project (putting it all together)
+61. Next Steps (choosing a specialization: web, data, automation, ML)
 
 ---
-*Review this list — tell me to add, remove, reorder, or split any topic before I start writing the actual docs.*
+*This list started as a 58-topic plan; `match`/`case` (10), `argparse` (26), and `enum` (31) were
+added afterward and the rest renumbered accordingly.*
